@@ -15,6 +15,12 @@ a = function () {
       document.querySelector('.b').style.backgroundColor = a.darkenByRatio(0.5).toCSS();
 
       document.querySelector('.c').style.backgroundColor = a.darkenByRatio(0.25).toCSS();
+
+      document.querySelector('.d').style.backgroundColor = a.lightenByRatio(0.25).toCSS();
+
+      document.querySelector('.e').style.backgroundColor = a.lightenByRatio(0.5).toCSS();
+
+      document.querySelector('.f').style.backgroundColor = a.lightenByRatio(0.75).toCSS();
     };
   });
 };
