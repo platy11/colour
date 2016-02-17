@@ -1,7 +1,7 @@
 body {
   overflow: hidden;
   -webkit-transition: background-color 0.5s;
-  transition: background-color 0.5s;
+          transition: background-color 0.5s;
 }
 
 [data-middle] {
@@ -32,7 +32,7 @@ input#color {
   border-bottom-style: dashed;
   border-bottom-color: rgba(128, 128, 128, 0.5);
   -webkit-transition: border-bottom-color 0.5s;
-  transition: border-bottom-color 0.5s;
+          transition: border-bottom-color 0.5s;
 }
 
 input#color:focus {
@@ -52,4 +52,13 @@ div[data-bottom] {
 
 .t {
   height: 100px;
+  cursor: pointer;
+  -webkit-transition: height 0.3s, transform 0.3s;
+          transition: height 0.3s, transform 0.3s;
+}
+
+.t:hover {
+  height: 125px;
+  -webkit-transform: translateY(-25px);
+          transform: translateY(-25px);
 }
