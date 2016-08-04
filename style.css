@@ -32,8 +32,8 @@ input#color {
   border-style: none;
   border-bottom-style: dashed;
   border-bottom-color: rgba(128, 128, 128, 0.5);
-  -webkit-transition: border-bottom-color 0.5s;
-          transition: border-bottom-color 0.5s;
+  -webkit-transition: border-bottom-color 0.5s, color 0.5s;
+          transition: border-bottom-color 0.5s, color 0.5s;
 }
 
 input#color:focus {
