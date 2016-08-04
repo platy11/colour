@@ -25,6 +25,7 @@ input#color {
   margin-right: auto;
   width: 40%;
   height: 40px;
+  color: rgba(128, 128, 128, 0.5);
   font-size: 2rem;
   vertical-align: middle;
   background-color: inherit;
@@ -38,7 +39,8 @@ input#color {
 input#color:focus {
   border-style: none;
   border-bottom-style: dashed;
-  border-bottom-color: rgba(128, 128, 128, 1);
+  border-bottom-color: rgb(128, 128, 128);
+  color: rgb(128, 128, 128);
 }
 
 div[data-bottom] {
