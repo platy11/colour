@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" >
+  <head>
+    <meta charset="UTF-8">
+    <title>Additive & Subtractive Colour Mixing</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="bbg"></div>
+    <div class="bln"></div>
+
+    <h1>Additive colour mixing</h1>
+    <div class="r"></div>
+    <input type="range" class="ri" min="0" max="100" value="100"/>
+    <div class="g"></div>
+    <input type="range" class="gi" min="0" max="100" value="100"/>
+    <div class="b"></div>
+    <input type="range" class="bi" min="0" max="100" value="100"/>
+
+    <h1>Subtractive colour mixing</h1>
+    <div class="c"></div>
+    <input type="range" class="ci" min="0" max="100" value="100"/>
+    <div class="m"></div>
+    <input type="range" class="mi" min="0" max="100" value="100"/>
+    <div class="y"></div>
+    <input type="range" class="yi" min="0" max="100" value="100"/>
+
+    <br><br>
+    <button class="b1">Random colour</button>
+    <button class="b2">Mirror RGB to CMY (off)</button>
+    <br>
+    <button class="bc" data-colour="100,0,0">Red</button>
+    <button class="bc" data-colour="0,100,0">Green</button>
+    <button class="bc" data-colour="0,0,100">Blue</button>
+    <button class="bc" data-colour="0,100,100">Cyan</button>
+    <button class="bc" data-colour="100,0,100">Magenta</button>
+    <button class="bc" data-colour="100,100,0">Yellow</button><br>
+    <button class="bc" data-colour="100,50,0">Orange</button>
+    <button class="bc" data-colour="0,50,100">Light blue</button>
+    <button class="bc" data-colour="100,0,50">Pink</button>
+    <button class="bc" data-colour="50,0,100">Purple</button>
+
+    <div class="rp"></div>
+    <div class="gp"></div>
+    <div class="bp"></div>
+
+    <div class="cp"></div>
+    <div class="mp"></div>
+    <div class="yp"></div>
+
+    <div class="rgbc"></div>
+    <div class="cmyc"></div>
+
+    <script  src="index.js"></script>
+  </body>
+</html>
